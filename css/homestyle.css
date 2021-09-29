@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+.navlink > a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navlink > a:hover {
+    background-color: lightpink;
+}
+
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
