@@ -27,12 +27,26 @@ body {
     background-color: lightpink;
 }
 
-
-figure {
+img {
     margin: 0;
     padding: 0;
+    width: 100%;
+
 }
 
-img {
-    width: 100%;
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    left: 17%;
+    top: 20%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px lightgrey;
+    background-color: white;
 }
