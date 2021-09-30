@@ -3,25 +3,36 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    font-family: sans-serif;
 }
 
-.navlinks {
-    list-style-type: none;
+nav {
     padding: 0;
     margin: 0;
     background-color: #66599b;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     min-height: 100px;
+    color: white;
+}
+
+nav > h1 {
+    margin: 20px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 
 .navlink > a {
     color: white;
     padding: 10px;
+    margin: 10px;
     display: inline-block;
-    font-family: sans-serif;
     font-size: 1.5em;
     text-decoration: none;
 }
@@ -44,6 +55,9 @@ main {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     height: 50%;
     width: 30%;
@@ -54,16 +68,40 @@ aside {
     background-color: white;
 }
 
+aside > h1{
+    text-align: center;
+    font-size: 2.75em;
+}
+
+#hours {
+    background-color: lightskyblue;
+    width: 75%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color: grey;
+    font-size: 1.25em;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: #66599b;
-    color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     min-height: 100px;
 }
 
-#icons {
+#icons > img{
     margin: 10px;
+    height: 30px;
 }
