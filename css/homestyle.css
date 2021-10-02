@@ -86,14 +86,9 @@ aside > h1{
 button {
     background-color: lightseagreen;
     color: white;
-    padding: 3%;
     border-radius: 10px;
-    margin-top: 10%;
-}
-
-button > a {
-    text-decoration: none;
-    color: white;
+    margin-top: 3%;
+    padding: 7%;
     font-size: 1.25em;
 }
 
@@ -108,7 +103,7 @@ footer {
     font-family: serif;
 }
 
-#icons {
+.icons {
     margin: 10px;
     height: 30px;
 }
@@ -116,16 +111,20 @@ footer {
 @media (max-width: 1360px) {
     aside {
         width: 50%;
-        height: 60%;
+        height: 70%;
     }
-
+    
     button {
-        margin-top: 5px;
+        padding: 5%;
     }
 }
 
 @media (max-width: 740px) {
     aside {
         height: 75%;
+    }
+
+    button {
+        padding: 3%;
     }
 }
