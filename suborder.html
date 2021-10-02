@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
         <title>Order a Sub!</title>
         <link rel="stylesheet" type="text/css" href="css/substyle.css">
@@ -17,15 +17,14 @@
         <main>
             <div id="form">
                 <form>
-                    <h1>Sub Order Form</h1>
+                    <h2>Sub Order Form</h2>
                     <section class="customer-name">
-                        <label for="name">Name</label>
+                        <h3>Name</h3>
                         <input type="text" name="customer-name" id="name" value="John Smith">
                     </section>
                     <hr>
                     <section class="bread">
-                        <span>Bread</span>
-                        <br>
+                        <h3>Bread</h3>
                         <input type="radio" name="bread" id="italian" value="italian">
                         <label for="italian">Italian</label>
                         <input type="radio" name="bread" id="wheat" value="wheat">
@@ -33,8 +32,7 @@
                     </section>
                     <hr>
                     <section class="meat">
-                        <span>Meat</span>
-                        <br>
+                        <h3>Meat</h3>
                         <input type="radio" name="meat" id="ham" value="ham">
                         <label for="ham">Ham</label>
                         <input type="radio" name="meat" id="turkey" value="turkey">
@@ -46,8 +44,7 @@
                     </section>
                     <hr>
                     <section class="cheese">
-                        <span>Cheese</span>
-                        <br>
+                        <h3>Cheese</h3>
                         <input type="radio" name="cheese" id="american" value="american">
                         <label for="american">American</label>
                         <input type="radio" name="cheese" id="provolone" value="provolone">
@@ -57,8 +54,7 @@
                     </section>
                     <hr>
                     <section class="toppings">
-                        <span>Toppings</span>
-                        <br>
+                        <h3>Toppings</h3>
                         <input type="checkbox" name="toppings" id="lettuce" value="lettuce">
                         <label for="lettuce">Lettuce</label>
                         <input type="checkbox" name="toppings" id="tomato" value="tomato">
@@ -66,11 +62,11 @@
                         <input type="checkbox" name="toppings" id="onion" value="onion">
                         <label for="onion">Onion</label>
                         <input type="checkbox" name="toppings" id="pickles" value="pickles">
-                        <lablel for="pickles">Pickles</lablel>
+                        <label for="pickles">Pickles</label>
                     </section>
                     <hr>
                     <section class="sauce">
-                        <label for="sauce">What type of sauce would you like?</label>
+                        <h3>What type of sauce would you like?</h3>
                         <input list="sauces" id="sauce" name="sauce">
                         <datalist id="sauces">
                           <option value="ketchup"></option>
@@ -80,12 +76,11 @@
                     </section>
                     <hr>
                     <section class="notes">
-                        <label for="extra">Anything else you want to add?</label>
-                        <br>
+                        <h3>Anything else you want to add?</h3>
                         <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
                     </section>
                 </form>
-                <button><a href="thankyou.html">Submit</a></button>
+                <button onclick="location.href='/thankyou.html'">Submit</button>
             </div>
         </main>
         <footer>
@@ -93,9 +88,9 @@
                 <p>Contact Us: (123)-456-7890</p>
             </div>
             <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-brands.svg" alt="facebook logo" id="icons"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-brands.svg" alt="instagram logo" id="icons"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-brands.svg" alt="twitter logo" id="icons"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-brands.svg" alt="facebook logo" class="icons"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-brands.svg" alt="instagram logo" class="icons"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter-brands.svg" alt="twitter logo" class="icons"></a>
             </div>
         </footer>
     </body>
