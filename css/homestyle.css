@@ -76,7 +76,7 @@ aside > h1{
 #hours {
     background-color: lightskyblue;
     width: 75%;
-    padding: 10px;
+    padding: 3%;
     border-radius: 30px;
     text-align: center;
     color: grey;
@@ -86,9 +86,9 @@ aside > h1{
 button {
     background-color: lightseagreen;
     color: white;
-    padding: 20px;
+    padding: 3%;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 10%;
 }
 
 footer {
@@ -104,4 +104,21 @@ footer {
 #icons > img{
     margin: 10px;
     height: 30px;
+}
+
+@media (max-width: 1360px) {
+    aside {
+        width: 50%;
+        height: 60%;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 740px) {
+    aside {
+        height: 75%;
+    }
 }
