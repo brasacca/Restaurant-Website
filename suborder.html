@@ -21,6 +21,7 @@
                         <label for="name">Name</label>
                         <input type="text" name="customer-name" id="name" value="John Smith">
                     </section>
+                    <hr>
                     <section class="bread">
                         <span>Bread</span>
                         <br>
@@ -29,20 +30,58 @@
                         <input type="radio" name="bread" id="wheat" value="wheat">
                         <label for="wheat">Wheat</label>
                     </section>
+                    <hr>
                     <section class="meat">
-
+                        <span>Meat</span>
+                        <br>
+                        <input type="radio" name="meat" id="ham" value="ham">
+                        <label for="ham">Ham</label>
+                        <input type="radio" name="meat" id="turkey" value="turkey">
+                        <label for="turkey">Turkey</label>
+                        <input type="radio" name="meat" id="chicken" value="chicken">
+                        <label for="chicken">Chicken</label>
+                        <input type="radio" name="meat" id="steak" value="steak">
+                        <label for="steak">Steak</label>
                     </section>
+                    <hr>
                     <section class="cheese">
-
+                        <span>Cheese</span>
+                        <br>
+                        <input type="radio" name="cheese" id="american" value="american">
+                        <label for="american">American</label>
+                        <input type="radio" name="cheese" id="provolone" value="provolone">
+                        <label for="provolone">Provolone</label>
+                        <input type="radio" name="cheese" id="chedder" value="chedder">
+                        <label for="chedder">Chedder</label>
                     </section>
+                    <hr>
                     <section class="toppings">
-
+                        <span>Toppings</span>
+                        <br>
+                        <input type="checkbox" name="toppings" id="lettuce" value="lettuce">
+                        <label for="lettuce">Lettuce</label>
+                        <input type="checkbox" name="toppings" id="tomato" value="tomato">
+                        <label for="tomato">Tomato</label>
+                        <input type="checkbox" name="toppings" id="onion" value="onion">
+                        <label for="onion">Onion</label>
+                        <input type="checkbox" name="toppings" id="pickles" value="pickles">
+                        <lablel for="pickles">Pickles</lablel>
                     </section>
+                    <hr>
                     <section class="sauce">
-
+                        <label for="sauce">What type of sauce would you like?</label>
+                        <input list="sauces" id="sauce" name="sauce">
+                        <datalist id="sauces">
+                          <option value="ketchup"></option>
+                          <option value="mayo"></option>
+                          <option value="mustard"></option>
+                        </datalist>
                     </section>
+                    <hr>
                     <section class="notes">
-
+                        <label for="extra">Anything else you want to add?</label>
+                        <br>
+                        <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
                     </section>
                 </form>
                 <button><a href="thankyou.html">Submit</a></button>

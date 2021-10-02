@@ -56,6 +56,11 @@ main {
     border-radius: 30px;
     text-align: center;
     font-size: 1em;
+    overflow-y: scroll;
+}
+
+hr {
+    width: 30%;
 }
 
 section {
