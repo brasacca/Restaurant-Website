@@ -59,6 +59,14 @@ main {
     overflow-y: scroll;
 }
 
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    margin: 5px;
+}
+
 hr {
     width: 30%;
 }
@@ -78,7 +86,7 @@ footer {
     font-family: serif;
 }
 
-#icons {
+.icons {
     margin: 10px;
     height: 30px;
 }
